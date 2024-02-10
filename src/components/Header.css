@@ -1,0 +1,67 @@
+.dropdown-user {
+    position: absolute;
+    top: 54px;
+    right: 3px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 1190px;
+    z-index: 1;
+  }
+  
+  .dropdown-user button {
+    background-color: transparent;
+    border: none;
+    color: #1b1b1b;
+    cursor: pointer;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .dropdown-user p{
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .dropdown-user button:hover {
+    background-color: #f2f2f2;
+  }
+
+  .search-results {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background-color: #fff; /* Add your preferred background color */
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .search-results p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Add your preferred text color */
+  }
+  
+  .search-results ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-results li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }

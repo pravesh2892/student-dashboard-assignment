@@ -1,0 +1,75 @@
+.course-details-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #fff;
+    margin-left: 270px;
+  }
+  
+  .course-details-container h1 {
+    margin-top: 35px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .thumbnail-instructor-row {
+    display: flex;
+    align-items: center;
+    margin-left: 66px; 
+  }
+  
+  .course-details-container img {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px; 
+    margin-bottom: 35px;
+  }
+  
+  .course-details-container h3 {
+    margin-left: 0;
+  }
+  
+  .instructor-info {
+    margin-left: 0; 
+  }
+  
+  .course-details-container p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    margin-left: 68px;
+  }
+
+  .thumbnail-instructor-row button {
+    margin-left: 57px;
+    border-radius: 13px;
+    transition: background-color 0.3s ease; /* Smooth transition for better user experience */
+}
+
+.thumbnail-instructor-row button:hover {
+    background-color: blue; 
+} 
+  
+  .course-details-container p span {
+    font-weight: bold;
+  }
+  
+  .syllabus-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .syllabus-table th,
+  .syllabus-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .syllabus-table th {
+    background-color: #f2f2f2;
+  }
+  
