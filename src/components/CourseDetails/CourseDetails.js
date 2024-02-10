@@ -105,7 +105,7 @@ function CourseDetails() {
         <table className="syllabus-table">
           <thead>
             <tr>
-              <th>Week</th>
+              <th>Day</th>
               <th>Topic</th>
               <th>Content</th>
             </tr>
